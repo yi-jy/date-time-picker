@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<meta name="wap-font-scale" content="no"/>
+<title>date-time-picker</title>
+<link rel="stylesheet" href="../dist/jquery.datetimepicker.min.css">
+</head>
+<body>
+
+<input type="text" class="date01" data-picker="date" style="margin-left: 100px;">
+<input type="text" class="date02" data-picker="date" style="position: absolute;top: 100px;">
+
+<input type="text" class="time01" data-picker="time" style="display: block;margin: 200px 0 100px 50px;">
+<input type="text" class="time02" data-picker="time">
+
+<script src="../dist/jquery-1.8.0.min.js"></script>
+<script src="../dist/jquery.datetimepicker.min.js"></script>
+<script>
+$(function() {
+
+    $('.date01').dateTimePicker({});
+
+    $('.date02').dateTimePicker({
+        date: '2018-10-10'
+    });
+
+    $('.time01').dateTimePicker({});
+
+    $('.time02').dateTimePicker({
+        time: '10：20：30'
+    });
+})
+</script>
+</body>
+</html>
+
+
