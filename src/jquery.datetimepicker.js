@@ -52,8 +52,8 @@ $.fn.dateTimePicker = function(options) {
                 height = 254;
 
         	var calendar = $('<div>', {
-                class: 'calendar',
-                onselectstart: 'return false'
+                'class': 'calendar',
+                'onselectstart': 'return false'
             }).css({
                 position: 'absolute',
                 top: top,
@@ -328,8 +328,8 @@ $.fn.dateTimePicker = function(options) {
                 height = ele.outerHeight() - 4;
 
         	var timeBox = $('<div>', {
-                class: 'time-box',
-                onselectstart: 'return false'
+                'class': 'time-box',
+                'onselectstart': 'return false'
             }).css({
                 position: 'absolute',
                 top: top,
