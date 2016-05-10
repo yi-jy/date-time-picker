@@ -40,6 +40,8 @@ $('.date01').dateTimePicker({});
 $('.time01').dateTimePicker({});
 ```
 
+### 参数
+
 dateTimePicker 方法接收一个对象，对象包含 date、time、eventType属性。默认情况下，它们的取值如下：
 
 | **参数** | **描述** | **默认值** | **格式** |
