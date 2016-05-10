@@ -45,7 +45,7 @@ dateTimePicker 方法接收一个对象，对象包含 date、time、eventType�
 | **参数** | **描述** | **默认值** | **格式** |
 |----------|----------|------------|----------|
 | date | 初始化日期 | 当前日期 | yyyy-MM-dd |
-| time | 初始化时间 | 当前时间 || hh：mm：ss |
+| time | 初始化时间 | 当前时间 | hh：mm：ss |
 | eventType | 触发类型 | mousedown | mouseup、click等 |
 
 date-time-picker演示：[点击查看](http://joy-yi0905.github.io/date-time-picker/demo/demo.html)
