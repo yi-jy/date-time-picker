@@ -27,7 +27,7 @@ date-time-picker 是基于jQuery的一款日期和时间选择插件，主要应
 ```
 
 ```javascript
-$('.date01').dateTimePicker({});
+$('.date01').dateTimePicker();
 ```
 
 相应的，如果你想要选取时间，则可通过以下代码：
@@ -37,7 +37,7 @@ $('.date01').dateTimePicker({});
 ```
 
 ```javascript
-$('.time01').dateTimePicker({});
+$('.time01').dateTimePicker();
 ```
 
 ### 参数
