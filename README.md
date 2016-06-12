@@ -52,9 +52,3 @@ dateTimePicker 方法接收一个对象，对象包含 date、time、eventType�
 
 date-time-picker演示：[点击查看](http://joy-yi0905.github.io/date-time-picker/demo/demo.html)
 
-# 1
-## 2
-### 3
-#### 4
-##### 5
-###### 6
