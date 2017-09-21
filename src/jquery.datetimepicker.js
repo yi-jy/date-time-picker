@@ -445,5 +445,5 @@ $.fn.dateTimePicker = function(options) {
             self.val(options.time);
             new timePicker(self);
         }
-    })
+    });
 };
