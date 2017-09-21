@@ -22,7 +22,7 @@ $.fn.dateTimePicker = function(options) {
         eventType : 'mousedown'
     };
 
-    var options = $.extend( defaults, options);
+    var options = $.extend(defaults, options);
 
     // 日期选择器
     function datePicker(ele) {
@@ -42,7 +42,8 @@ $.fn.dateTimePicker = function(options) {
                 }
                 self.createDate(ele);
                 e.stopPropagation();
-            });
+            })
+            .attr('readonly', 'readonly');
 
             // self.createDate(ele);
         },
@@ -205,7 +206,7 @@ $.fn.dateTimePicker = function(options) {
                     dateVal = '',
                     dateData = '';
 
-                if (i >= nowMonthInitDay - 1 && i < nowMonthDays + (nowMonthInitDay - 1)) { 
+                if (i >= nowMonthInitDay - 1 && i < nowMonthDays + (nowMonthInitDay - 1)) {
 
                     nowMonthShowDays += 1;
                     // 今天
@@ -422,7 +423,7 @@ $.fn.dateTimePicker = function(options) {
         },
         timeChange: function(timeTypeEle, max, scale) {
             var ssVal = parseInt(timeTypeEle.html());
-            
+
             ssVal += scale;
             if (ssVal === max + 1) {
                 ssVal = 0;
